@@ -8,7 +8,7 @@ a {
 }
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("../images/spacejoy-8e679XbGGy4-unsplash.jpg");
+    url("../images/spacejoy-8e679XbGGy4-unsplash copy(2).webp");
     height: 100%;
     background-position:center;
     background-repeat: no-repeat;
@@ -23,6 +23,9 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    padding: 15px;
+    background-color: rgba(39, 33, 38, 0.5);
+    border-radius: 20px;
 }
 ul {
     list-style: none;
@@ -46,6 +49,9 @@ li {
     text-decoration: none;
     border-radius: 64px;
     background-color: #d1546f;
+}
+.hero-button:hover{
+    background-color: #7c3041; 
 }
 
 .navbar a {
@@ -90,6 +96,9 @@ width: auto;
     padding: 20px;
     color: white;
     background-color: #d1546f;
+}
+.card button:hover {
+    background-color: #7c3041;
 }
 /*cards*/
 
